@@ -1,0 +1,25 @@
+[ 2024-11-28 16:27:34,581 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-11-28 16:27:34,590 ] 97 werkzeug - INFO -  * Debugger PIN: 325-694-479
+[ 2024-11-28 16:27:51,424 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Nov/2024 16:27:51] "GET / HTTP/1.1" 200 -
+[ 2024-11-28 16:28:03,498 ] 69 root - INFO - Entered initiated_data_ingestion method of data_integration class
+[ 2024-11-28 16:28:03,498 ] 46 root - INFO - Exporting data from mongodb
+[ 2024-11-28 16:28:07,556 ] 56 root - INFO - saving exported data into feature store file path :artifacts
+[ 2024-11-28 16:28:07,658 ] 74 root - INFO - got the data from mongodb
+[ 2024-11-28 16:28:07,659 ] 76 root - INFO - exited initiate_data_ingestion methos of data ingestion class
+[ 2024-11-28 16:28:07,659 ] 67 root - INFO - Entered initiate data transformation method of data transfomration class
+[ 2024-11-28 16:28:08,027 ] 49 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-11-28 16:28:08,030 ] 57 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-11-28 16:28:08,033 ] 190 root - INFO - Splitting training and testing input and target feature
+[ 2024-11-28 16:28:08,033 ] 204 root - INFO - Extracting model config file path
+[ 2024-11-28 16:28:08,034 ] 216 root - INFO - Extracting model config file path
+[ 2024-11-28 16:29:28,210 ] 261 root - INFO - Best found model on both training and testing dataset
+[ 2024-11-28 16:29:28,210 ] 268 root - INFO - Saving model at path: artifacts\model.pkl
+[ 2024-11-28 16:29:28,211 ] 49 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-11-28 16:29:28,215 ] 57 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-11-28 16:29:28,218 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Nov/2024 16:29:28] "GET /train HTTP/1.1" 200 -
+[ 2024-11-28 16:30:16,096 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Nov/2024 16:30:16] "GET /predict HTTP/1.1" 200 -
+[ 2024-11-28 16:30:16,122 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Nov/2024 16:30:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2024-11-28 16:30:16,349 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Nov/2024 16:30:16] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[ 2024-11-28 16:30:27,200 ] 80 root - INFO - predictions completed
+[ 2024-11-28 16:30:27,200 ] 51 root - INFO - prediction completed. Downloading prediction file.
+[ 2024-11-28 16:30:27,223 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Nov/2024 16:30:27] "POST /predict HTTP/1.1" 200 -

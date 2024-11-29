@@ -1,0 +1,9 @@
+[ 2024-11-28 16:18:03,965 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-11-28 16:18:03,976 ] 97 werkzeug - INFO -  * Debugger PIN: 325-694-479
+[ 2024-11-28 16:18:14,665 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Nov/2024 16:18:14] "GET / HTTP/1.1" 200 -
+[ 2024-11-28 16:18:24,130 ] 69 root - INFO - Entered initiated_data_ingestion method of data_integration class
+[ 2024-11-28 16:18:24,130 ] 46 root - INFO - Exporting data from mongodb
+[ 2024-11-28 16:18:54,877 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Nov/2024 16:18:54] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[ 2024-11-28 16:18:55,227 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Nov/2024 16:18:55] "[36mGET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2024-11-28 16:18:55,228 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Nov/2024 16:18:55] "[36mGET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2024-11-28 16:18:55,478 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Nov/2024 16:18:55] "GET /train?__debugger__=yes&cmd=resource&f=console.png&s=wdkjFbGtmGLHkh5r4DpS HTTP/1.1" 200 -
